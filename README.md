@@ -1,31 +1,19 @@
-# Welcome to StackEdit!
+# Foreword
+This guide is for those like me who received a fake HM-11 from eBay. If you can, buy genuine products to support the development. From the [iBeacon datasheet](http://www.jnhuamao.cn/iBeacon_en.zip):
+>Condemn the copycat company copied behavior on HM-10!!!!!!
+If you buy a fake, please apply for a refund guarantee your legitimate rights and interests.
+JNHuaMao Technology Company.
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+# How to spot a fake
 
-
-# Files
-
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
-
-## Create files and folders
+To decide is this guide is for you you have to first establish that you have indeed pruchased a fake. There are two indiactors for fake HM-10/11
+## Phisical Appearance
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
-## Switch to another file
+## The need for line endings
 
 All your files are listed in the file explorer. You can switch from one to another by clicking a file in the list.
-
-## Rename a file
-
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
-
-## Delete a file
-
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
-
-## Export a file
-
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
 
 # Synchronization
