@@ -11,11 +11,14 @@ To decide is this guide is for you you have to first establish that you have ind
 
 ## Line Endings
 
+# Materials
+
 # Arduino as USB to Serial
 Figuring how to properly connect the HM-11 to my PC caused a lot of head scratching.
 First, your HM-11 works at 3.3v. While there are many people reporting no damage in applying 5v to the chip si best not to. Luckly is very easy to convert 5v TX signals into 3.3v. All you need is a voltage divider made with one 1K ohm and one 2K ohm resistors.
 
 ![Image from randomnerdtutorials.com](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2015/09/voltage-divider-circuit.png)
+
 You will need one of these for every signal going from the arduino to the HM-11.
 ## Before the conversion
 The 
