@@ -1,4 +1,3 @@
-This is a work in progress.
 # Foreword
 This guide is for those like me who received a fake HM-11 from eBay. If you can, buy genuine products to support the development. From the [iBeacon datasheet](http://www.jnhuamao.cn/iBeacon_en.zip):
 >Condemn the copycat company copied behavior on HM-10!!!!!!
@@ -82,12 +81,16 @@ You will need thew following files from [RedBearLab/CCLoader](https://github.com
  - executable for your environment (in my case CCloader.exe)
  - Arduino sketch (CCloader.ino)
  - the full bin file (CC2541hm10v540.bin)
-
+Make sure the executable and the bin file are in the same folder.
  The HM-10 bin file works fine for the HM-11.
  ### 3. Load CCloader.ino on the Arduino Uno
  You will need the Arduino IDE to do this but I hope that's obvious.
   ### 4. Run
-  I was using COM7 and an Arduino Uno so I ran:
+ Open a terminal window at the folder, then run:
+
+     CCLoader.exe <COM Port> <firmware.bin> [0/1]
+
+ I was using COM7 and an Arduino Uno so I ran:
   
     CCLoader.exe 7 CC2541hm10v540.bin 0
 You should see this:
@@ -143,4 +146,20 @@ Reference guide from [JNHuaMao's website](http://www.jnhuamao.cn/iBeacon_en.zip)
  - The iBeacon will sometimes only start working once you disconnect the RX-TX cables
 
 # References
-TODO
+
+ - [How to flash genuine HM-10 firmware on CC2541 (make genuine HM-10
+   from CC41)](https://forum.arduino.cc/index.php?topic=393655.0) see also [post #94](https://forum.arduino.cc/index.php?topic=393655.msg3376643#msg3376643)
+  - [Connecting an Arduino to a Myo armband using a HM-10 /
+   HM-11](https://blog.raquenaengineering.com/arduino-and-the-myo-armband/) for the pinout of DEBUG_CLOCK, DEBUG_DATA, and RESET on the HM-11
+-  [bjoerke/HM-10-Firmware]([https://github.com/bjoerke/HM-10-Firmware/wiki/flash-firmware](https://github.com/bjoerke/HM-10-Firmware/wiki/flash-firmware)) for extra instructions
+- [suryasundarraj/hm-10-firmware](https://github.com/suryasundarraj/hm-10-firmware/) for HMComAssistant.exe
+- [Martyn Currey HM-10 Bluetooth 4 BLE Modules](http://www.martyncurrey.com/hm-10-bluetooth-4ble-modules/) for an extensive descripion of the modules
+- [JNHuaMao](http://www.jnhuamao.cn/bluetooth.asp?id=1) website for images of genuine products
+- [Upgrading Firmware to HM-10 CC2541 BLE 4.0](https://techienoise.blogspot.com/2016/02/upgrading-firmware-to-hm-10-cc2541-ble.html)
+- [HM-10 BLE responds only to AT](http://forum.arduino.cc/index.php?topic=348216.0)
+- [Realising I had a fake](https://arduino.stackexchange.com/questions/34858/ftdi-to-hm-10cc2541-serial-command-no-response)
+- [Arduino Program for Bluetooth](http://forum.arduino.cc/index.php?topic=262387.0)
+- [Make IBeacon With HM10/HM11](https://www.instructables.com/id/make-iBeacon/)
+- [Using HM-10 BLE Modules as Low-Cost iBeacons](http://www.blueluminance.com/HM-10-as-iBeacon.pdf)
+- [What is iBeacon?](https://developer.estimote.com/ibeacon/#uuid-major-minor-and-beacon-regions)
+- [Removing \r\n from Serial Input](https://forum.arduino.cc/index.php?topic=342245.0)
