@@ -25,7 +25,7 @@ You will need one of these for every signal going from the arduino to the HM-11.
 
 
 ## Empty Sketch
-With Genuine HM-11 all you need is to upload and empty Sketch on you Arduino. You can remark the fact that Pin 0 and 1 are INPUTS but by default they all are, unless specified otherwise. You can use the Arduino Serial Monitor or the 
+With genuine HM-11 all you need is to upload and empty Sketch on you Arduino. You can remark the fact that Pin 0 and 1 are INPUTS but by default they all are, unless specified otherwise. You can use the Arduino Serial Monitor or the HMComAssistant.exe. Try this first.
 
     void setup(){
       pinMode(0,INPUT);
