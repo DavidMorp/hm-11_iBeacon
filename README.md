@@ -70,7 +70,7 @@ E.g Arduino_pin11 -> voltage divider -> RX_MH-11
     }
 The code above is from [this post](http://forum.arduino.cc/index.php?topic=348216.0) on Arduino forums with [this tweak](https://forum.arduino.cc/index.php?topic=342245.0) to remove the CR LN.
 # Pins needed
-
+#TODO
 
 # Flashing the CC2541
 Following [this post](https://forum.arduino.cc/index.php?topic=393655.msg2709528#msg2709528) and [this feedback](https://forum.arduino.cc/index.php?topic=393655.msg3376643#msg3376643) on the same thread I proceded as follows:
